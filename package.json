@@ -28,8 +28,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsdown",
-    "dev": "vitest dev",
+    "build": "node init && tsdown",
+    "dev": "node init && vitest dev",
     "lint": "eslint .",
     "prepare": "simple-git-hooks",
     "prepack": "pnpm build",
